@@ -1,0 +1,10 @@
+{
+	"name": "uhsky-site",
+	"dependencies": {
+		"requirejs": "*",
+		"uninett-bootstrap-theme": "*",
+		"font-awsome": "*"
+	},
+	"cwd": "",
+	"directory": "bower_components"
+}

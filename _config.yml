@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+apps:
+  dashboard:  https://dashboard.dataporten.no
+  groups:     https://grupper.dataporten.no
+  min:        https://minside.dataporten.no
+  homepage:   https://uninett.no
+
+ep:
+  auth:       https://auth.dataporten.no
+  authhost:   auth.dataporten.no
+  api:        https://api.dataporten.no
+  apihost:    api.dataporten.no
+  groups:     https://groups-api.dataporten.no
+  groupshost: groups-api.dataporten.no
+  groupsBasePath: /groups/
+  apigkhost: dataporten-api.no

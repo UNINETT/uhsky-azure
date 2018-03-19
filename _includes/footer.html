@@ -1,0 +1,43 @@
+<!-- Footer
+================================================== -->
+<footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+
+    <!-- <p>Connect is currently under development.</p> -->
+
+    <ul class="bs-docs-footer-links muted">
+      <li>UHSky Startpakke</li>
+      <li>&middot;</li>
+      <li><a href="http://www.uninett.no">UNINETT AS</a></li>
+      <li>&middot;</li>
+      <li><a href="https://www.uninett.no/skytjenester">Skytjenester</a></li>
+    </ul>
+
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript">
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
+
+
+
+{% if site.github %}
+<script src="/assets/js/docs.min.js"></script>
+{% else %}
+<script src="/assets/js/vendor/holder.js"></script>
+<script src="/assets/js/vendor/ZeroClipboard.min.js"></script>
+<script src="/assets/js/src/application.js"></script>
+{% endif %}
+{% if page.slug == "customize" %}
+<script src="/assets/js/customize.min.js"></script>
+{% endif %}
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
