@@ -16,6 +16,7 @@ rm Ruby-2.2.3.zip
 rm RubyDevKit.exe
 
 ::Configure RubyDevKit
+echo "Configure RubyDevKit"
 
 cd RubyDevKit
 
@@ -24,11 +25,13 @@ echo - %HOMEDRIVE%/home/SiteExtensions/JekyllExtension/Commands/Ruby-2.2.3/ruby-
 call %HOME%\SiteExtensions\JekyllExtension\Commands\Ruby-2.2.3\ruby-2.2.2-i386-mingw32\bin\ruby dk.rb install
 
 ::Install Jekyll
+echo "Install Jekyll"
 
 SET SSL_CERT_FILE=%PROGRAMFILES(x86)%\git\usr\ssl\certs\ca-bundle.crt
 
 for filename in `cat $INSTALL_GEMS` ; do
 
+    echo $filename
     call %HOME%\SiteExtensions\JekyllExtension\Commands\Ruby-2.2.3\ruby-2.2.2-i386-mingw32\bin\gem install $filename 
 
 done
