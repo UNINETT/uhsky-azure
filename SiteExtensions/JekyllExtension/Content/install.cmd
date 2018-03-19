@@ -20,8 +20,11 @@ echo "Configure RubyDevKit"
 
 cd RubyDevKit
 
+echo "Configure RubyDevKit - ruby dk.rb init"
 call %HOME%\SiteExtensions\JekyllExtension\Commands\Ruby-2.2.3\ruby-2.2.2-i386-mingw32\bin\ruby dk.rb init
+echo "Configure RubyDevKit - config.yml"
 echo - %HOMEDRIVE%/home/SiteExtensions/JekyllExtension/Commands/Ruby-2.2.3/ruby-2.2.2-i386-mingw32 >> config.yml
+echo "Configure RubyDevKit - ruby dk.rb install"
 call %HOME%\SiteExtensions\JekyllExtension\Commands\Ruby-2.2.3\ruby-2.2.2-i386-mingw32\bin\ruby dk.rb install
 
 ::Install Jekyll
