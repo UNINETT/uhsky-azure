@@ -23,7 +23,7 @@ cd RubyDevKit
 echo "Configure RubyDevKit - ruby dk.rb init"
 call %HOME%\SiteExtensions\JekyllExtension\Commands\Ruby-2.2.3\ruby-2.2.2-i386-mingw32\bin\ruby dk.rb init
 echo "Configure RubyDevKit - config.yml"
-echo - %HOMEDRIVE%/home/SiteExtensions/JekyllExtension/Commands/Ruby-2.2.3/ruby-2.2.2-i386-mingw32 >> config.yml
+echo - %HOME%/home/SiteExtensions/JekyllExtension/Commands/Ruby-2.2.3/ruby-2.2.2-i386-mingw32 >> config.yml
 echo "Configure RubyDevKit - ruby dk.rb install"
 call %HOME%\SiteExtensions\JekyllExtension\Commands\Ruby-2.2.3\ruby-2.2.2-i386-mingw32\bin\ruby dk.rb install
 
@@ -41,5 +41,5 @@ done
 
 ::Install WebJob
 
-mkdir %HOME%\site\wwwroot\app_data\jobs\triggered
-mv %HOME%\SiteExtensions\JekyllExtension\Hooks\jekyll-build %HOME%\site\wwwroot\app_data\jobs\triggered\jekyll-build
+::mkdir %HOME%\site\wwwroot\app_data\jobs\triggered
+::mv %HOME%\SiteExtensions\JekyllExtension\Hooks\jekyll-build %HOME%\site\wwwroot\app_data\jobs\triggered\jekyll-build
