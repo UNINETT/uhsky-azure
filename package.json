@@ -3,7 +3,7 @@
 	"description": "Web site for UHSky.",
 	"version": "0.1.0",
 	"keywords": [
-		"uhsky","office365","uninett"
+		"uhsky","azure","uninett"
 	],
 	"homepage": "https://www.uninett.no/skytjenester",
 	"author": "Rune Myrhaug",
@@ -13,10 +13,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/UNINETT/uhsky-startpakke.git"
+		"url": "https://github.com/UNINETT/uhsky-azure.git"
 	},
 	"bugs": {
-		"url": "https://github.com/UNINETT/uhsky-startpakke/issues"
+		"url": "https://github.com/UNINETT/uhsky-azure/issues"
 	},
 	"devDependencies": {
 		"btoa": "~1.1.2",
